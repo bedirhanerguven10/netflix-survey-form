@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/background_image.jpg);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    height: 900px;
+    margin: 20px 40px; 
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.mid{
+    width: 500px;
+    height: 750px;
+    margin: 40px 700px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-left: 180px;  
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 5px;
+}
+
+#sub-logo{
+    color: rgb(230, 50, 30);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#cont{
+    text-align: center;
+    padding-left: 180px;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-family: 'Tapestry', cursive;
+    font-weight: lighter;
+}
+
+
+
