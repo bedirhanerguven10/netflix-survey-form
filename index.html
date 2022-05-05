@@ -7,20 +7,93 @@
     <title>Netflix Survey Form</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet"
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <div class="container">
-        <h1>NET<span id="sub-logo">FLIX</span></h1>
-        <p id="cont">Thank you for signing up at Netflix.Tell us more about yourself</p>
-        <div class="mid">
-            
-            
+    <div id="container">
+        <header id="head"">
+           <h1 id="title">NET<span>FLIX</span></h1>
+        
+        <h3 id="description">
+            Thank you for signing up to Netflix.Tell me about yourself
+        </h3>
+
+        </header>
+
+        <div id="survey-form-container">
+            <div class="" id="survey-form">
+                <form action="result.html" method="GET" target="_blank">
+                    <div class="input-box">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="age">Age</label><br>
+                        <input type="text" id="age" name="age" placeholder="Enter your age">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email" placeholder="Enter your email">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="content">Content Type</label><br>
+                        <select name="content" id="dropdown">
+                            <option value="movie">Movie</option>
+                            <option value="series" selected>Series</option>
+                            
+                        </select>
+                     </div>
+
+                     <div class="input-box">
+                         <label for="Movie">Movie Type</label>
+                         <br>
+                         <input type="checkbox" name="movie" value="Comedy" id="first-check">
+                         <label for="first-check">Comedy</label><br>
+
+                         <input type="checkbox" name="movie" value="Action" id="second-check">
+                         <label for="second-check">Action</label><br>
+
+                         <input type="checkbox" name="movie" value="Romance" id="third-check">
+                         <label for="third-check">Romance</label>
+                     </div>
+
+                     <div class="input-box">
+                        <label for="gender">Gender</label>
+                        <br>
+                        <input type="radio" name="gender" id="first-radio" value="Male">
+                        <label for="first-radio">Male</label><br>
+                        <input type="radio" name="gender" id="second-radio" value="Female">
+                        <label for="second-radio">Female</label><br>
+                        <input type="radio" name="gender" id="third-radio" value="Other">
+                        <label for="third-radio">Other</label>
+
+                     </div>
+
+                     <div class="input-box">
+                        <label for="feedback">Feedback</label><br>
+                        <textarea name="feedback" id="feedback" placeholder="Any comment" cols="30" rows="10"></textarea>
+
+                     </div>
+
+                     <div id="form-submit">
+                         <input type="submit" value="SEND" id="form-button">
+                     </div>
+
+
+                </form>
+
+
+            </div>
         </div>
+            
+            
+        
     
 
     </div>
